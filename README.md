@@ -1,4 +1,4 @@
-Assignment 4
+Assignment 4 - Viia Mäntymäki
 
 1. Create minimum two databases, one SQL and one NoSQL database.  
 2. Have similar data in both databases (same relations, just different data entities).  
