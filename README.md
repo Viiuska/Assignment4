@@ -11,6 +11,9 @@ Assignment 4
 Before running this project, go to index.js file and put your own pgAdmin 4 information.  
 ![image](https://github.com/user-attachments/assets/03732fda-ce8f-45ea-a15d-801d4c22cc33)
 
+Get the databases: lappeenranta.sql to pgAdmin4 and Lappeenranta.exclusivenailpolishes.json to mongoDBCompass  
+
+
 In terminal:  
 Before running write 'npm install' (installs required dependencies)  
 Then to run write 'node index.js'  
