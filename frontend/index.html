@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nail polish databases</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Nail polish databases</h1>
+    <button id="databasesBtn">View databases</button>
+
+    <h2>Exclusive Nail Polish</h2>
+
+    <section id="mongodbSection">
+      <h2>Data from MongoDB</h2>
+      <table id="mongoData">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Color</th>
+            <th>Price</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section id="postgresSection">
+      <h2>Data from PostgreSQL</h2>
+      <table id="postgresData">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Color</th>
+            <th>Price</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section id="mergedSection">
+      <h2>Combined data from both databases</h2>
+      <table id="mergedData">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Color</th>
+            <th>Price</th>
+            <th>Amount</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <h2>Insert new nail polishes</h2>
+    <form id="insertForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /><br />
+
+      <label for="color">Color:</label>
+      <input type="text" id="color" name="color" required /><br />
+
+      <label for="price">Price:</label>
+      <input type="number" id="price" name="price" step="0.01" required /><br />
+
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" name="amount" required /><br />
+
+      <button type="button" id="submitMongo">Insert Data to MongoDB</button>
+      <button type="button" id="submitPostgres">
+        Insert Data to PostgreSQL
+      </button>
+    </form>
+
+    <h2>Delete nail polishes</h2>
+    <form id="deleteForm">
+      <label for="id">ID:</label>
+      <input type="number" id="id" name="id" required /><br />
+
+      <label for="color">Color:</label>
+      <input type="text" id="dColor" name="dColor" required /><br />
+
+      <button type="button" id="deleteMongo">Delete Data from MongoDB</button>
+      <button type="button" id="deletePostgres">
+        Delete Data from PostgreSQL
+      </button>
+    </form>
+
+    <h2>Modify Nail Polishes</h2>
+    <form id="modifyForm">
+      <label for="id">Existing ID:</label>
+      <input type="text" id="mid" name="id" required /><br />
+
+      <label for="name">Modify name:</label>
+      <input type="text" id="mname" name="name" /><br />
+
+      <label for="color">Modify color:</label>
+      <input type="text" id="mcolor" name="color" required /><br />
+
+      <label for="price">Modify price:</label>
+      <input type="number" id="mprice" name="price" step="0.01" /><br />
+
+      <label for="amount">Modify amount:</label>
+      <input type="number" id="mamount" name="amount" /><br />
+
+      <button type="button" id="modifyMongo">Modify MongoDB data</button>
+      <button type="button" id="modifyPostgres">Modify PostgreSQL data</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+[{
+  "_id": {
+    "$oid": "6722085135aa10dc5ca80bd8"
+  },
+  "id": 1,
+  "name": "lappeenranta polish",
+  "color": "Bubblegum",
+  "price": "4.19",
+  "amount": 4
+},
+{
+  "_id": {
+    "$oid": "6722239bc9f0dc3dfb4a8712"
+  },
+  "id": 2,
+  "name": "lappeenranta polish",
+  "color": "Mocha Magic",
+  "price": "4.19",
+  "amount": 12
+},
+{
+  "_id": {
+    "$oid": "67222401c9f0dc3dfb4a8714"
+  },
+  "id": 3,
+  "name": "lappeenranta polish",
+  "color": "Silky Milky",
+  "price": "4.19",
+  "amount": 17
+},
+{
+  "_id": {
+    "$oid": "6722241dc9f0dc3dfb4a8715"
+  },
+  "id": 4,
+  "name": "lappeenranta polish",
+  "color": "Lavender Bliss",
+  "price": "4.19",
+  "amount": 16
+},
+{
+  "_id": {
+    "$oid": "67222430c9f0dc3dfb4a8716"
+  },
+  "id": 5,
+  "name": "lappeenranta polish",
+  "color": "Delicate Sherbet",
+  "price": "4.19",
+  "amount": 2
+},
+{
+  "_id": {
+    "$oid": "6728b9e030267b89037d5b1e"
+  },
+  "id": 6,
+  "name": "lpr polish",
+  "color": "Your red lips",
+  "price": 5.12,
+  "amount": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673322dca986ddeb3d011d57"
+  },
+  "id": 7,
+  "name": "lpr polish",
+  "color": "Rasberry red",
+  "price": 10,
+  "amount": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673322f57f3e2ff65e4e051e"
+  },
+  "id": 8,
+  "name": "lpr polish",
+  "color": "Rasberry",
+  "price": 4.2,
+  "amount": 7,
+  "__v": 0
+}]
