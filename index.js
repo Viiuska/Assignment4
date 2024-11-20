@@ -77,17 +77,7 @@ app.get("/api/merged/nailpolishes", async (req, res) => {
   try {
     const mongoData = await UserModel.find().lean();
 
-    const client = new Client({
-      user: process.env.USER,
-      host: process.env.SERVER,
-      database: "Lappeenranta",
-      password: process.env.PASSWORD,
-      port: process.env.POST,
-    });
-    await client.connect();
-
     const pgResult = await client.query("SELECT * FROM exclusivenailpolish");
-    await client.end();
     const postgresData = pgResult.rows;
 
     const combinedData = {};
